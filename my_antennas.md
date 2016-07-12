@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Antennas
-subtitle: you know, "exo-shack"
+subtitle: you know, the "exo-shack"
 ---
 
 # My Antenna(s)
