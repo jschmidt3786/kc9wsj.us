@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Why you'd want to make a QSO with me
 ---
 
 I tested [here][races] for my Technician license on 2012-10-08 and received call KC9WSJ on 2012-10-16.
