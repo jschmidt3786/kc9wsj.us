@@ -1,5 +1,5 @@
 ---
-title: MyFirstFieldDay
+title: My First Field Day
 subtitle:
 layout: post
 bigimg: /img/fd2016.jpg
