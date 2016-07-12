@@ -1,7 +1,7 @@
 ---
 title: My First Field Day
 subtitle: MCWA FD2016
-layout: post
+layout: page
 bigimg: /img/fd2016.jpg
 ---
 
