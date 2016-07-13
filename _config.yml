@@ -27,6 +27,8 @@ navbar-links:
   Resources:
     - My Shack: "my_shack"
     - My Antennas: "my_antennas"
+    - In The Field: "My-First-Field-Day"
+    - Fly, be free: "csv19-pneumatic-antenna-launcher"
   Author's home: "http://www.linuxi86.net"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -155,3 +157,6 @@ gems:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
