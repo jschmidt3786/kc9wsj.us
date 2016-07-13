@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "CSV19 Pneumatic Antenna Launcher"
-description: "can't get enough of PVC"
+description: "fly, little wire, be free!"
 category: 
-tags: []
+tags: ["antenna", "pvc", "pneumatic"]
+bigimg: /img/csv19.jpg
+show-avatar: false
 ---
 
 so now I've got one of [these][csv19]...

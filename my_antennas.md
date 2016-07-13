@@ -2,6 +2,7 @@
 layout: page
 title: My Antennas
 subtitle: you know, the "exo-shack"
+show-avatar: false
 ---
 
 # My Antenna(s)
