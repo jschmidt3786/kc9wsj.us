@@ -10,6 +10,6 @@ here's how to deploy:
 BASEDIR=$(pwd) # probably...
 WEBSRV="_ipaddr"
 
-rsync -azv --delete _site/* root@${WEBSRV}:/usr/share/nginx/www/
+rsync -az --progress _site/* root@${WEBSRV}:/usr/share/nginx/www/
 ssh root@${WEBSRV} 'chown -R www-data: /usr/share/nginx/www'
 ```
