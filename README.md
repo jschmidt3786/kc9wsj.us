@@ -7,8 +7,8 @@ here's how to deploy:
 
 ```bash
 #!/bin/bash -ex
-BASEDIR=$(pwd) # probably...
 WEBSRV="_ipaddr"
+BASEDIR=$(pwd) # probably...
 
 rsync -az --progress _site/* root@${WEBSRV}:/usr/share/nginx/www/
 ssh root@${WEBSRV} 'chown -R www-data: /usr/share/nginx/www'
