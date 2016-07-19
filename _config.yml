@@ -4,7 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://www.kc9wsj.us"
+#url: "http://www.kc9wsj.us"
+url: ""
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -29,7 +30,7 @@ navbar-links:
     - My Antennas: "my_antennas"
     - In The Field: "My-First-Field-Day"
     - Fly, be free: "csv19-pneumatic-antenna-launcher"
-  Author's home: "http://www.linuxi86.net"
+#  Author's home: "http://www.linuxi86.net"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -45,8 +46,8 @@ author:
   facebook: jeff.schmidt.940436
   github: jschmidt3786
   twitter: jschmidt3786
-  #linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
-  #stackoverflow: yourlink  # eg. "3943160/daattali"
+  linkedin: in/jschmidt3786 # "pub/dean-attali/8/946/143"
+  stackoverflow: 1391183/jeff-s  # eg. "3943160/daattali"
 
 # Select which links to show in the footer
 footer-links-active:
@@ -55,8 +56,8 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: false
-  stackoverflow: false
+  linkedin: true
+  stackoverflow: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -157,6 +158,3 @@ gems:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-#gems: ['kramdown']
-#exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
