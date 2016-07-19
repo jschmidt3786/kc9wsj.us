@@ -3,6 +3,7 @@ layout: page
 title: My Antennas
 subtitle: you know, the "exo-shack"
 show-avatar: false
+bigimg: /img/buddipole_40m.jpg
 ---
 
 # My Antenna(s)
