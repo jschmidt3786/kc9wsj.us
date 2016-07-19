@@ -13,3 +13,10 @@ BASEDIR=$(pwd) # probably...
 rsync -az --progress _site/* root@${WEBSRV}:/usr/share/nginx/www/
 ssh root@${WEBSRV} 'chown -R www-data: /usr/share/nginx/www'
 ```
+
+or, if you've got a newer rsync installed...
+(rsync version 3.1.0 introduced the --chown --usermap and --groupmap options)
+
+```
+rsync -azvog --chown=www-data:www-data _site/* root@${WEBSRV}:/usr/share/nginx/www/
+```
