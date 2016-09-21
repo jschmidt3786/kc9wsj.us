@@ -24,7 +24,7 @@ module JB
       :theme_packages => "_theme_packages",
       :posts => "_posts"
     }
-    
+
     def self.base
       SOURCE
     end
@@ -36,7 +36,7 @@ module JB
       path.compact!
       File.__send__ :join, path
     end
-  
+
   end #Path
 end #JB
 
@@ -59,7 +59,7 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
@@ -85,7 +85,7 @@ task :page do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   mkdir_p File.dirname(filename)
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |post|
@@ -107,7 +107,7 @@ end # task :preview
 task :switch_theme => "theme:switch"
 
 namespace :theme do
-  
+
   # Public: Switch from one theme to another for your blog.
   #
   # name - String, Required. name of the theme you want to switch to.
@@ -139,14 +139,14 @@ namespace :theme do
         page.puts "layout: default" unless File.basename(filename, ".html").downcase == "default"
         page.puts "---"
         page.puts "{% include JB/setup %}"
-        page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}" 
+        page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}"
       end
     end
-    
+
     puts "=> Theme successfully switched!"
     puts "=> Reload your web-page to check it out =)"
   end # task :switch
-  
+
   # Public: Install a theme using the theme packager.
   # Version 0.1.0 simple 1:1 file matching.
   #
@@ -170,7 +170,7 @@ namespace :theme do
     end
 
     packaged_theme_path = JB::Path.build(:theme_packages, :node => name)
-    
+
     abort("rake aborted!
       => ERROR: 'name' cannot be blank") if name.empty?
     abort("rake aborted! 
@@ -179,9 +179,9 @@ namespace :theme do
       => To download+install run: `rake theme:install git='[PUBLIC-CLONE-URL]'`
       => example : rake theme:install git='git@github.com:jekyllbootstrap/theme-the-program.git'
     ") unless FileTest.directory?(packaged_theme_path)
-    
+
     manifest = verify_manifest(packaged_theme_path)
-    
+
     # Get relative paths to packaged theme files
     # Exclude directories as they'll be recursively created. Exclude meta-data files.
     packaged_theme_files = []
