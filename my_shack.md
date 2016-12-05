@@ -45,9 +45,14 @@ I've tricked out the units w/ custom brass serial number plates and acrylic face
 
 Also pictured on top of the P3 is my [K1EL WinKeyer USB][winkey], interfaced to [N1MM+][n1mm] (running in a WinXP [Virtualbox][vbox] VM on my MacBook Pro).
 
+I've also recently completed a [USB antenna rotator interface kit][antrot] to interface [DXLab][dxlab]/[N1MM+][n1mm]/whatever to my [Yaesu G-800SA rotator][g800].
+
 [elecraft]: http://www.elecraft.com
 [wb2art]: http://www.arkayengravers.com/elecraft/ "Ken's Elecraft page"
 [lz2jr]: http://www.ebay.com/sch/lz2jr/m.html?item=370792008354&ViewItem=&ssPageName=ADME%3AX%3ARTQ%3AUS%3A1123&rt=nc&_trksid=p2047675.l2562 "Boris' ebay listings"
 [winkey]: http://www.hamcrafters2.com/wkusb_smt.html
 [n1mm]: http://n1mm.hamdocs.com/tiki-index.php
 [vbox]: https://www.virtualbox.org/
+[antrot]: https://remoteqth.com/single-rotator-interface.php
+[dxlab]: http://www.dxlabsuite.com/
+[g800]: http://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=104&encProdID=79D3952BA5CCB0D0672C19F58BE1B0F6&DivisionID=65&isArchived=0
